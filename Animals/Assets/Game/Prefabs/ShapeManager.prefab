@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4206608599533286868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4206608599533286870}
+  - component: {fileID: 4206608599533286871}
+  m_Layer: 0
+  m_Name: ShapeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4206608599533286870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206608599533286868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0101266, y: 0.11650295, z: -1.8983914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4206608599533286871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206608599533286868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f805574e0374573848d91389124bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayedAd: 1
+  shape:
+  - {fileID: 21300000, guid: 50836d1bc0cf04e62b3b24cfef99345c, type: 3}
+  - {fileID: 21300000, guid: b50d7af66ae8144d6ba9f1a074adf5cb, type: 3}
+  - {fileID: 21300000, guid: 63f9440650d254e30a4d638aeef5f6a7, type: 3}
+  - {fileID: 21300000, guid: 1a5869fc48798474ebae13120cba0cb0, type: 3}
+  - {fileID: 21300000, guid: 6d1d599de89b94cc684eb37c8be90af4, type: 3}
+  - {fileID: 21300000, guid: 252e3a8aff7da4761a057e0f571c0199, type: 3}
+  - {fileID: 21300000, guid: 4d7b6c1a76bdf46249adf6c9f045797e, type: 3}
+  - {fileID: 21300000, guid: 076dbfb90f75745dbaad4ee7f6e016cf, type: 3}
+  LineShape:
+  - {fileID: 21300000, guid: 4effd2f8213734ae1b39e3bb7c7b1576, type: 3}
+  - {fileID: 21300000, guid: a2592c0b112994a6aa2e25e2b7421eb8, type: 3}
+  - {fileID: 21300000, guid: 868e9c89002db4fa0a000ad58ec51e70, type: 3}
+  - {fileID: 21300000, guid: e90a0794a89de484e833efd74456f0d5, type: 3}
+  - {fileID: 21300000, guid: 4cbf30f54708841a2844c331138d5591, type: 3}
+  - {fileID: 21300000, guid: 3af6a9303d8a042d0b21e376c9171de5, type: 3}
+  - {fileID: 21300000, guid: ad3b391971938494189e18e8877bcd45, type: 3}
+  - {fileID: 21300000, guid: 10e17b2e73cbc4a04a28c57e3c2cb9aa, type: 3}
+  BulletShape:
+  - {fileID: 21300000, guid: 2d115f0c0c8744617b6b9bdd96411494, type: 3}
+  - {fileID: 21300000, guid: c8727765ba7aa4b10a59a2322a53dbf4, type: 3}
+  - {fileID: 21300000, guid: 5603da731306b4591ade3f844eece316, type: 3}
+  - {fileID: 21300000, guid: 25b3244651fd44dc89f4ad9a0ebfe0db, type: 3}
+  - {fileID: 21300000, guid: b076b1c8735ee4897a4eb1721c1e8168, type: 3}
+  - {fileID: 21300000, guid: 9997e38fa53534b06ab5316743ef9115, type: 3}
+  - {fileID: 21300000, guid: 385cdb7ed0eb44f04bdcbc156cbd889f, type: 3}
+  - {fileID: 21300000, guid: 2069e62ab7cb64f17862ecb1c68f39da, type: 3}
+  BouncyBulletShape:
+  - {fileID: 21300000, guid: 957d972fe287d4238b561bf607d9839d, type: 3}
+  - {fileID: 21300000, guid: 4558a8240b5194af79cfd39e09dd5266, type: 3}
+  - {fileID: 21300000, guid: 5341490ee4dba4b9dab58d47edd53cc7, type: 3}
+  - {fileID: 21300000, guid: 36577df3386744a4e875953dbf4acc1d, type: 3}
+  - {fileID: 21300000, guid: 831be36236e0b427c9282bc046afc9d0, type: 3}
+  - {fileID: 21300000, guid: 20fa419a0961d4156a64577ac29a3e24, type: 3}
+  - {fileID: 21300000, guid: b15197c98450c4684b35192aa83c997d, type: 3}
+  - {fileID: 21300000, guid: 6a5806957b43c402cb405314db8cfe76, type: 3}
+  Box:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Line:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  BulletManager: {fileID: 0}
+  ScreenAd: {fileID: 0}
+  selectionNum: 0
+  ColorNum: 00000000000000000000000000000000
+  LineColorNum: 00000000000000000000000000000000
+  ResetCount: 1
+  Tutorial: 0
+  GameOver: {fileID: 0}
