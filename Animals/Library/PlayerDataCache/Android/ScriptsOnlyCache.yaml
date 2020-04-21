@@ -859,4 +859,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Home.unity
   - Assets/Scenes/Play.unity
   - Assets/Scenes/Tutorial.unity
-  playerPath: /Users/gimhyeonbin/Desktop/Resource/LAST.apk
+  playerPath: /Users/gimhyeonbin/Desktop/Resource/laststst.apk
